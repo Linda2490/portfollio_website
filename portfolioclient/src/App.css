@@ -1,0 +1,20 @@
+.main-container {
+  margin: 0 auto;
+  width: 1366px;
+}
+.inner-container {
+  margin: 0 auto;
+  width: 1288px;
+}
+.horizontal-line-navbar {
+    display: block;
+    border-bottom: 1px solid #1EF2F1 ;
+    width: 1474px;
+    margin-top: 10px;
+}
+.horizontal-line-home {
+    display: block;
+    border-bottom: 1px solid #1EF2F1 ;
+    width: 1474px;
+    margin-top: 160px;
+}

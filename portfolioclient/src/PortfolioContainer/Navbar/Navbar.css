@@ -1,0 +1,20 @@
+ul {
+  list-style-type: none;
+  display: flex;
+  margin-left: 350px;
+  position: relative;
+}
+.items {
+  margin-right: 20px;
+  cursor: pointer;
+}
+.items:hover {
+  color: #1ef2f1;
+  text-shadow: 0 0 5px #1ef2f1;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
