@@ -24,11 +24,8 @@ export default function Home() {
               </h1>
             </span>
           </div>
-          <div className="contact">
-            <button>Contact Me</button>
-          </div>
 
-          
+          <button>Contact Me</button>
         </div>
       </div>
       <div className="profile-picture"></div>
