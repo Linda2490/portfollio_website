@@ -6,24 +6,13 @@ import Sc from './PortfolioContainer/services_component/Sc'
 
 function App() {
   return (
-        
-        
-      
-      <div className='main-container'>
+    <div className="main-container">
       <Navbar />
-      
-      
-        
-       
-          <Home />
-          <Hf />
-          <Sc />
-        
-      
-      </div>
-      
-      
-    
+
+      <Home />
+      <Hf />
+      <Sc />
+    </div>
   )
 }
 

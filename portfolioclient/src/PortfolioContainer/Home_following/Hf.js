@@ -14,7 +14,7 @@ export default function Hf() {
           <div className="Hf-line"></div>
         </div>
 
-        <div className="line"></div>
+
         <div className="description">
           <span>
             We develop web applications from landing pages to fully E-commerce
@@ -33,7 +33,7 @@ export default function Hf() {
           <span>Creative solutions</span>
           <div className="Hf-line"></div>
         </div>
-        <div className="line"></div>
+        
         <div className="description">
           <span>
             We design spoken modern websites and dashboards and deliver a
