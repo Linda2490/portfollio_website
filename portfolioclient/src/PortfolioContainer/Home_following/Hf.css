@@ -1,22 +1,26 @@
 .Hf-container {
   display: flex;
   align-items: center;
-  margin-top: 40px;
-  margin-right: 550px;
+  margin-top: 120px;
+  
   justify-content: center;
+  align-items: center;
   flex-direction: row;
 }
-.Hf-parent {
+.Hf-container .Hf-parent {
+  padding: 40px 40px;
+   
+   justify-content: center;
   color: #fff;
-  background: linear-gradient(to right, #000, #353535b2);
+  background-color: #1b1919b2;
   margin: 30px;
-  font-family: "Poppins", sans-serif;
+  
   text-align: start;
   height: 210px;
   width: 210px;
-  padding: 15px 5px;
-  border-radius: 40px;
-  box-shadow: 0 0 20px -7px #1ef2f270;
+  padding: 30px 20px;
+  border-radius: 30px;
+  
   position: relative;
 }
 .Hf-parent .Hf-icon {
@@ -28,13 +32,13 @@
 }
 .Hf-parent .title {
   margin: 30px 0 30px;
+  font-weight: 600;
+  
 }
 .Hf-parent .description {
   font-size: 12px;
 }
-hr {
-    color: #1ef2f1
-}
+
 .Hf-line {
     border-bottom: 2px solid #1ef2f1;
     width: 20%;

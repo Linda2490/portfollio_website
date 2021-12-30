@@ -1,26 +1,7 @@
 .main-container {
-  margin: 0 auto;
-  width: 1366px;
-}
-.inner-container {
-  margin: 0 auto;
-  width: 1288px;
-}
-.horizontal-line-navbar {
-  display: block;
-  border-bottom: 1px solid #1ef2f1;
-  width: 1474px;
-  margin-top: 10px;
-}
-.horizontal-line-home {
-  display: block;
-  border-bottom: 1px solid #1ef2f1;
-  width: 1474px;
-  margin-top: 160px;
-}
-.horizontal-line-hf {
-  display: block;
-  border-bottom: 1px solid #1ef2f1;
-  width: 1474px;
-  margin-top: 40px;
+  flex: 1;
+  text-align: center;
+  position: relative;
+  height: 130vh;
+  width: 100%;
 }

@@ -3,10 +3,10 @@ import './Navbar.css'
 var mw = require("../../assets/Asset 1.png")
 export default function Navbar() {
   return (
-      <div>
+      
       
     <div className="navbar-container">
-     <img src={mw} style={{height:'60px'}} alt='no-internet'/>
+     <img src={mw} style={{height:'60px', position:'relative'}} alt='no-internet'/>
       
         <nav>
       
@@ -21,6 +21,6 @@ export default function Navbar() {
         
       
     </div>
-    </div>
+    
   )
 }

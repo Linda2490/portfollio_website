@@ -1,20 +1,23 @@
-ul {
-  list-style-type: none;
+.navbar-container {
   display: flex;
-  margin-left: 350px;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 10px;
+  font-weight: bolder;
+}
+
+.navbar-container ul {
+  display: flex;
+  list-style-type: none;
+   margin-right: 50px;
   position: relative;
 }
 .items {
-  margin-right: 20px;
+  margin-right: 25px;
   cursor: pointer;
 }
 .items:hover {
   color: #1ef2f1;
   text-shadow: 0 0 5px #1ef2f1;
-}
-
-.navbar-container {
-  display: flex;
-  align-items: center;
-  margin-top: 10px;
 }

@@ -3,8 +3,8 @@ import './Sc.css'
 
 export default function Sc() {
     return (
-        <div>
-            
+        <div className='Sc-container'>
+            dgfdgdfgfdg
         </div>
     )
 }
