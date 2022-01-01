@@ -63,11 +63,12 @@ button {
 		border-radius: 45px;
 		height: auto;
 		padding: .8em 2.1em;
+    transition: transform 450ms;
 }
 button:hover {
 
-	cursor: pointer;
-	padding: .8em 2.7em;
+	transform: scale(1.08);
+  padding: .8em 2.5em;
 }
   
 

@@ -1,0 +1,23 @@
+.ScIcons-container {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 20px;
+  flex-flow: wrap;
+  min-height: fit-content;
+  
+  
+  
+}
+.icons {
+    display: flex;
+
+  background-image: url("../../assets/Asset\ 2.svg");
+  height: 100px;
+  min-width: 1200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  position: relative;
+}
