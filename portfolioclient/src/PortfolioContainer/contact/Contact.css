@@ -1,3 +1,134 @@
+.contact-container {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 120px;
+  flex-flow: wrap;
+  min-height: fit-content;
+}
 .contact-parent {
     margin-right: 859px;
+}
+.social-icons {
+    display: flex;
+    margin-left: 270px;
+    flex-direction: row;
+    margin-top: 300px;
+}
+.linkedin {
+    display: flex;
+
+  background-image: url("../../assets/asset6.svg");
+  
+  height: 50px;
+  width: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 20px;
+  position: relative;
+}
+.insta {
+ display: flex;
+
+  background-image: url("../../assets/asset7.svg");
+  
+  height: 50px;
+  width: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 20px;
+  position: relative;
+}
+.upwork{
+    display: flex;
+
+  background-image: url("../../assets/asset8.svg");
+  
+  height: 50px;
+  width: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 20px;
+  position: relative;
+}
+.fiverr {
+     display: flex;
+
+  background-image: url("../../assets/asset10.svg");
+  
+  height: 50px;
+  width: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 20px;
+  position: relative;
+}
+.contact-highlight{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    font-weight: 600;
+    
+    font-size: 30px;
+    
+}
+.highlights {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    margin-right:100px;
+}
+.contact-details {
+   display: flex;
+   flex-direction: row;
+   margin-top: 300px;
+   justify-content: space-between;
+   margin-left: 80px;
+}
+.tel {
+     display: flex;
+
+  background-image: url("../../assets/asset11.svg");
+  
+  height: 50px;
+  width: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 0px;
+  position: relative;
+  
+}
+.email {
+     display: flex;
+
+  background-image: url("../../assets/asset12.svg");
+  
+  height: 60px;
+  width: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 0px;
+  position: relative;
+  
+}
+.position {
+     display: flex;
+
+  background-image: url("../../assets/asset13.svg");
+  
+  height:40px;
+  width: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 0px;
+  position: relative;
+  
+}
+h4 {
+    font-weight: 400;
+    margin-left: 15px;
+    margin-right: 60px;
 }

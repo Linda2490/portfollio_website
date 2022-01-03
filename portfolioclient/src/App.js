@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css'
 import Contact from './PortfolioContainer/contact/Contact'
+import Footer from './PortfolioContainer/Footer'
 import Home from './PortfolioContainer/Home/Home'
 import Hf from './PortfolioContainer/Home_following/Hf'
 import Navbar from './PortfolioContainer/Navbar/Navbar'
@@ -21,6 +22,7 @@ function App() {
       <Works />
       <Testimonials />
       <Contact />
+      <Footer />
     </div>
   )
 }
