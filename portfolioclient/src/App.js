@@ -8,6 +8,7 @@ import Navbar from './PortfolioContainer/Navbar/Navbar'
 import Sc from './PortfolioContainer/services_component/Sc'
 import ScIcons from './PortfolioContainer/services_component/ScIcons'
 import Testimonials from './PortfolioContainer/Testimonials/Testimonials'
+import TestimonialsFollowing from './PortfolioContainer/Testimonials/TestimonialsFollowing'
 import Works from './PortfolioContainer/works/Works'
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <ScIcons />
       <Works />
       <Testimonials />
+      <TestimonialsFollowing />
       <Contact />
       <Footer />
     </div>
