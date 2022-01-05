@@ -1,11 +1,10 @@
 .footer {
-    display: flex;
-
+  display: flex;
   justify-content: center;
   justify-items: center;
   margin-top: 150px;
   flex-flow: wrap;
   min-height: fit-content;
   color: #1ef2f1;
-  margin-right: 90px
+  margin-right: 90px;
 }
