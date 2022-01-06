@@ -28,3 +28,89 @@
   margin-right: 70px;
   padding-left: 10px;
 }
+.works-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.showtag {
+  display: flex;
+  flex-direction: row;
+  margin-top: 70px;
+}
+.first-pic {
+  display: flex;
+
+  background-image: url("../../assets/showtag-project.jpg");
+  background-size: cover;
+  height: 300px;
+  width: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 50px;
+  position: relative;
+}
+.first-pic-details {
+  display: flex;
+  flex-direction: column;
+}
+.first-pic-title {
+  font-weight: 600;
+  font-size: 20px;
+  margin-right: 200px;
+}
+.underline {
+  border-bottom: 2px solid #1ef2f1;
+  width: 20%;
+  margin-left: 95px;
+  
+  margin-bottom: 60px;
+}
+.first-pic-description {
+  
+  
+  
+  
+  
+  border: none;
+  text-align: start;
+  
+  width: 410px;
+  font-size: 12px;
+  margin-left: 95px;
+}
+.second-pic {
+  display: flex;
+
+  background-image: url("../../assets/bombshell.png");
+  background-size: cover;
+  height: 300px;
+  width: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 50px;
+  position: relative;
+}
+.second-pic-title {
+  font-weight: 600;
+  font-size: 20px;
+  margin-right: 135px;
+}
+
+.third-pic {
+  display: flex;
+
+  background-image: url("../../assets/agencyone.jpg");
+  background-size: cover;
+  height: 300px;
+  width: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 50px;
+  position: relative;
+}
+.third-pic-title {
+  font-weight: 600;
+  font-size: 20px;
+  margin-right: 185px;
+}
