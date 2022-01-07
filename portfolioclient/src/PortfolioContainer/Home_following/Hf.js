@@ -4,10 +4,8 @@ export default function Hf() {
   return (
     <div className="Hf-container">
       <div className="Hf-parent">
-        <div class="Hf-icon">
-          <span>
-            <i class="far fa-paper-plane"></i>
-          </span>
+        <div class="paper-plane">
+          
         </div>
         <div className="title">
           <span>Future concept</span>
@@ -24,10 +22,8 @@ export default function Hf() {
       </div>
 
       <div className="Hf-parent">
-        <div class="Hf-icon">
-          <span>
-            <i class="far fa-lightbulb"></i>
-          </span>
+        <div className="lightbulb">
+          
         </div>
         <div className="title">
           <span>Creative solutions</span>

@@ -43,32 +43,25 @@
   margin-bottom: 10px;
 }
 button {
+  display: block;
   background-color: #1ef2f1;
-  
 
   font-family: "Poppins";
-  text-align: center;
-  
-  display: block;
+
   text-decoration: none;
-  color: balck;
+
   position: absolute;
-  overflow: hidden;font-size: 1em;
-		line-height: normal;
-		
-		font-weight: 800;
-		-webkit-transition: all .3s ease-in-out;
-		transition: all .3s ease-in-out, color 0.2s 0.3s;
-		letter-spacing: 0;
-		border-radius: 45px;
-		height: auto;
-		padding: .8em 2.1em;
-    transition: transform 450ms;
+
+  font-size: 1em;
+
+  font-weight: 800;
+
+  letter-spacing: 0;
+  border-radius: 45px;
+
+  padding: 0.8em 2.1em;
+  transition: transform 450ms;
 }
 button:hover {
-
-	transform: scale(1.08);
-  
+  transform: scale(1.08);
 }
-  
-

@@ -18,7 +18,7 @@ export default function Home() {
             </span>
           </div>
           <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=mahdi.kaaniche1998@gmail.com">
-          <button>Contact me</button>
+            <button>Contact me</button>
           </a>
         </div>
         <div className="profile-picture"></div>
