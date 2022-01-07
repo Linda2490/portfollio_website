@@ -2,7 +2,7 @@ import React from 'react'
 import './Contact.css'
 export default function Contact() {
   return (
-    <div className="contact-container">
+    <div className="contact-container" id='contact'>
       <div className="contact-parent">
         <div className="row">
           <div className="works-line"></div>

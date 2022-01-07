@@ -3,7 +3,7 @@ import React from 'react'
 import './Home.css'
 export default function Home() {
   return (
-    <div className="Home-container">
+    <div className="Home-container" id='home'>
       <div className="Home-parent">
         <div className="Home-details">
           <div className="Home-details-name">

@@ -2,7 +2,7 @@ import React from 'react'
 import './Testimonials.css'
 export default function Testimonials() {
   return (
-    <div className="testimonials-container">
+    <div className="testimonials-container" id='testimonials'>
       <div className="testimonials-parent">
         <div className="row">
           <div className="testimonials-line"></div>

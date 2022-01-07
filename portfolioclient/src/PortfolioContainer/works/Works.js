@@ -3,7 +3,7 @@ import './Works.css'
 
 export default function Works() {
   return (
-    <div className="works-container">
+    <div className="works-container" id='works'>
       <div className="works-parent">
         <div className="row">
           <div className="works-line"></div>

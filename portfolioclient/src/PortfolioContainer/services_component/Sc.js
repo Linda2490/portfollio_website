@@ -3,7 +3,7 @@ import './Sc.css'
 
 export default function Sc() {
   return (
-    <div className="Sc-container">
+    <div className="Sc-container" id='sc'>
       <div className="Sc-parent">
         <div className="row">
           <div className="Sc-line"></div>
