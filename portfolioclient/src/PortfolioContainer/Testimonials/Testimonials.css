@@ -31,10 +31,12 @@
 .testimonials-box {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  justify-items: center;
   margin-top: 60px;
 }
 .box {
-  padding: 40px 40px;
+  
 
   justify-content: center;
   color: #fff;
@@ -93,16 +95,5 @@
   align-items: center;
 
   margin-top: 100px;
-}
-.tagshow {
-  
-  background-image: url("../../assets/tag-show.jpg");
-  background-size: cover;
-  height: 70px;
-  width: 70px;
-  background-repeat: no-repeat;
-  background-position: center;
-  
-  position: relative;
 }
 

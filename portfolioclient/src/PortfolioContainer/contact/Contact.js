@@ -12,18 +12,28 @@ export default function Contact() {
       </div>
       <div className="highlights">
         <div className="social-icons">
-          <div className="linkedin"></div>
-          <div className="insta"></div>
-          <div className="upwork"></div>
-          <div className="fiverr"></div>
+          <a href="https://www.linkedin.com/in/mahdi-kaaniche-web-dev/">
+            <div className="linkedin"></div>
+          </a>
+          <a href="https://www.instagram.com/mahdi_webi/">
+            <div className="insta"></div>
+          </a>
+          <a href="https://www.upwork.com/freelancers/~0142db5643926d7942?viewMode=1">
+            <div className="upwork"></div>
+          </a>
+          <a href="https://www.fiverr.com/mahdikaanich916?up_rollout=true">
+            <div className="fiverr"></div>
+          </a>
         </div>
         <div className="contact-highlight">
           <span>Do you have any</span>
           <span>project in your mind</span>
         </div>
-        <button style={{ marginLeft: '350px', marginTop:'300px' }}>
-          Contact me
-        </button>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=mahdi.kaaniche1998@gmail.com">
+          <button style={{ marginLeft: '350px', marginTop: '120px' }}>
+            Contact me
+          </button>
+        </a>
         <div className="contact-details">
           <div className="tel"></div>
           <h4>+216 26 194 035</h4>

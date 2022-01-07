@@ -33,7 +33,7 @@
   flex-direction: column;
 }
 
-.showtag {
+.projects {
   display: flex;
   flex-direction: row;
   margin-top: 70px;
@@ -50,7 +50,7 @@
   margin-left: 50px;
   position: relative;
 }
-.first-pic-details {
+.pic-details {
   display: flex;
   flex-direction: column;
 }
@@ -63,18 +63,13 @@
   border-bottom: 2px solid #1ef2f1;
   width: 20%;
   margin-left: 95px;
-  
+
   margin-bottom: 60px;
 }
-.first-pic-description {
-  
-  
-  
-  
-  
+.pic-description {
   border: none;
   text-align: start;
-  
+
   width: 410px;
   font-size: 12px;
   margin-left: 95px;
