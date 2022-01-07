@@ -13,9 +13,12 @@ export default function Home() {
           </div>
           <div className="Home-details-role">
             <span className="primary-text">
-              <h1>web&nbsp;developer</h1>
-              <h1 style={{ marginLeft: '140px' }}>Designer</h1>
+              <h1 className='linee typing' >web&nbsp;developer</h1>
+              <h1  className='lineee typingg' style={{ marginLeft: '135px' }}> Designer</h1>
+              <h1   style={{ marginLeft: '145px', color:'black' }}> Designerrr</h1>
+              
             </span>
+            
           </div>
           <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=mahdi.kaaniche1998@gmail.com">
             <button>Contact me</button>

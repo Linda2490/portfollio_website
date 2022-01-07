@@ -36,6 +36,7 @@
 .primary-text h1 {
   font-size: 50px;
   font-weight: 900;
+  
 }
 .secondary-text h5 {
   color: #1ef2f1;
@@ -64,4 +65,66 @@ button {
 }
 button:hover {
   transform: scale(1.08);
+}
+.linee {
+  position: relative;
+  top: 50%;
+  width: 8em;
+  margin: 0 auto;
+  border-right: 2px solid white;
+  overflow: hidden;
+  margin-top: -60px;
+
+  transform: translateY(-50%);
+}
+.lineee {
+  position: relative;
+  top: 50%;
+  width: 5em;
+  
+  border-right: 2px solid white;
+  overflow: hidden;
+  margin-bottom: 50px;
+  white-space: nowrap;
+  transform: translateY(-50%);
+}
+.typing {
+  animation: typewriter 4s steps(30) 1s infinite normal both,
+    blinkTextCursor 800ms steps(40) infinite ;
+}
+.typingg {
+  animation: typewriterr 4s steps(30) 1s infinite normal both,
+    blinkTextCursorr 800ms steps(40) infinite ;
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 8em;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: #1ef2f1;
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+@keyframes typewriterr {
+  from {
+    width: 0;
+  }
+  to {
+    width: 5em;
+  }
+}
+@keyframes blinkTextCursorr {
+  from {
+    border-right-color: #1ef2f1;
+  }
+  to {
+    border-right-color: transparent;
+  }
 }
