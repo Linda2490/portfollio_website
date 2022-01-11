@@ -59,82 +59,20 @@ button {
   position: absolute;
 
   font-size: 1em;
-
+   border:#1ef2f1;
   font-weight: 800;
 
   letter-spacing: 0;
   border-radius: 45px;
-
+  cursor: pointer;
   padding: 0.8em 2.1em;
-  transition: transform 450ms;
+  /* transition: transform 450ms; */
 }
-button:hover {
+/* button:hover {
   transform: scale(1.08);
-}
-
-/* .linee {
-  position: relative;
-  top: 50%;
-  width: 8em;
-  margin: 0 auto;
-  border-right: 2px solid white;
-  overflow: hidden;
-  margin-top: -60px;
-
-  transform: translateY(-50%);
-}
-.lineee {
-  position: relative;
-  top: 50%;
-  width: 5em;
-  
-  border-right: 2px solid white;
-  overflow: hidden;
-  margin-bottom: 50px;
-  white-space: nowrap;
-  transform: translateY(-50%);
-}
-.typing {
-  animation: typewriter 4s steps(30) 1s infinite normal both,
-    blinkTextCursor 800ms steps(40) infinite ;
-}
-.typingg {
-  animation: typewriterr 4s steps(30) 1s infinite normal both,
-    blinkTextCursorr 800ms steps(40) infinite ;
-}
-@keyframes typewriter {
-  from {
-    width: 0em;
-  }
-  to {
-    width: 8em;
-  }
-  
-}
-@keyframes blinkTextCursor {
-  from {
-    border-right-color: #1ef2f1;
-  }
-  to {
-    border-right-color: transparent;
-  }
-}
-@keyframes typewriterr {
-  from {
-    width: 0;
-  }
-  to {
-    width: 5em;
-  }
-}
-@keyframes blinkTextCursorr {
-  from {
-    border-right-color: #1ef2f1;
-  }
-  to {
-    border-right-color: transparent;
-  }
 } */
+
+
 .Home-details-role .option {
   margin-left: -10px;
   height: 90px;
@@ -179,3 +117,55 @@ button:hover {
     left: 0;
   }
 }
+/* /* .cta-buttonX {
+  color: white;
+		text-transform: uppercase;
+		border: 2px solid var(--sec-main-color);
+		border-radius: 50px;
+		background-color: var(--sec-main-color);
+} */
+/* .cta-buttonX:hover, .cta-buttonX:focus {
+		box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);
+		
+} */
+/* .btn-m {
+
+font-size: 1em;
+
+line-height: normal;
+
+text-transform: uppercase;
+
+font-family: 'Lato', sans-serif;
+
+font-weight: 900;
+
+-webkit-transition: all .3s ease-in-out;
+
+transition: all .3s ease-in-out, color 0.2s 0.3s;
+
+letter-spacing: 0;
+
+border-radius: 45px;
+
+height: auto;
+
+padding: .8em 2.1em;
+} */
+
+
+
+
+
+/* .btn-m:hover {
+
+	cursor: pointer;
+	padding: .8em 2.7em;
+  padding-left: 2.7em;
+} */
+
+/* a.btn-m{
+
+	margin: 3rem 0;
+
+} */ 

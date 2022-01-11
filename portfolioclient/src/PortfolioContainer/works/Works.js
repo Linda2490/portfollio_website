@@ -26,7 +26,7 @@ export default function Works() {
               landing pages to fully E-commerce websites
             </div>
             <a href='https://showtag.tv/'>
-            <button style={{ margin: '95px', marginTop: '60px' }}>
+            <button style={{ margin: '95px', marginTop: '60px', border:'2px solid #1ef2f1', backgroundColor:'transparent', color:'#1ef2f1', fontSize:'12px'}}>
               view the website
             </button>
             </a>
@@ -47,7 +47,7 @@ export default function Works() {
               landing pages to fully E-commerce websites
             </div>
             <a href='https://www.bombshellsa.com'>
-            <button style={{ margin: '95px', marginTop: '60px' }}>
+            <button style={{ margin: '95px', marginTop: '60px', border:'2px solid #1ef2f1', backgroundColor:'transparent', color:'#1ef2f1', fontSize:'12px' }}>
               view the website
             </button>
             </a>
@@ -67,14 +67,14 @@ export default function Works() {
               landing pages to fully E-commerce websites
             </div>
             <a href='https://agencyone.fr/'>
-            <button style={{ margin: '95px', marginTop: '60px' }}>
+            <button style={{ margin: '95px', marginTop: '60px', border:'2px solid #1ef2f1', backgroundColor:'transparent', color:'#1ef2f1', fontSize:'12px' }}>
               view the website
             </button>
             </a>
           </div>
         </div>
         
-        <button style={{marginLeft:'450px', marginTop:'1190px'}}>view more works</button>
+        <button style={{marginLeft:'450px', marginTop:'1190px', fontSize:'14px'}}>view more works</button>
         
       </div>
       

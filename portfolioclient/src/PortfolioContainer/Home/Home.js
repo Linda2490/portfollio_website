@@ -26,11 +26,11 @@ export default function Home() {
             </div>
             
           </div>
-          <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=mahdi.kaaniche1998@gmail.com">
-            <button style={{marginLeft:'30px'}}>Contact me</button>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=mahdi.kaaniche1998@gmail.com" >
+            <button className='btn-m cta-buttonX' style={{marginLeft:'30px'}}>Contact me</button>
           </a>
         </div>
-        <div className="profile-picture"></div>
+        <div className="profile-picture"></div> 
       </div>
     </div>
   )

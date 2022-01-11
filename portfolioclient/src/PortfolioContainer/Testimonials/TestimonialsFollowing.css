@@ -1,7 +1,7 @@
 .TestimonialsFollowing-container {
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content:center;
     justify-items: center;
     
     margin-top: 90px;
@@ -16,7 +16,8 @@
   width: 100px;
   background-repeat: no-repeat;
   background-position: center;
-  margin-left: 50px;
+  margin-left: 80px;
+  
   position: relative;
 }
 .second-logo {
@@ -28,7 +29,7 @@
   width: 150px;
   background-repeat: no-repeat;
   background-position: center;
-  margin-left: 50px;
+  margin-left: 90px;
   position: relative;
 }
 .third-logo {
