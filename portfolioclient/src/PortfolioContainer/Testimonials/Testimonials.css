@@ -96,4 +96,24 @@
 
   margin-top: 100px;
 }
-
+.sliderr {
+  display: flex;
+  overflow: hidden;
+  width:950px;
+}
+.slidess {
+  display: flex;
+  width : calc(700px * 3);
+  animation: slidde 10s infinite;
+}
+@keyframes slidde {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-750px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

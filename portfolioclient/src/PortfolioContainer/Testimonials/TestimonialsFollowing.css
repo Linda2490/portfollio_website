@@ -38,3 +38,13 @@
  margin-left: 100px;
  margin-top: 30px;
 }
+.sliddd {
+  display: flex;
+  width : 830px;
+  overflow: hidden;
+}
+.sliddde {
+  display: flex;
+  width:calc(700px * 4);
+  animation: slidde 10s infinite;
+}

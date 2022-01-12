@@ -9,12 +9,13 @@
 }
 .contact-parent {
     margin-right: 859px;
+    margin-bottom: -90px;
 }
 .social-icons {
     display: flex;
     margin-left: 270px;
     flex-direction: row;
-    margin-top: 300px;
+    margin-top: 230px;
 }
 .linkedin {
     display: flex;
@@ -80,6 +81,7 @@
     justify-content: center;
     justify-items: center;
     margin-right:100px;
+    
 }
 .contact-details {
    display: flex;
