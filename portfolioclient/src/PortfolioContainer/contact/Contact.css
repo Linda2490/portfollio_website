@@ -134,3 +134,9 @@ h4 {
     margin-left: 15px;
     margin-right: 60px;
 }
+@media screen and (max-width:500px){
+  .contact-parent {
+    margin-right: 100px;
+    
+}
+}

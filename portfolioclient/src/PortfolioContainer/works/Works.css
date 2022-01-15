@@ -110,3 +110,15 @@
   font-size: 20px;
   margin-right: 185px;
 }
+@media screen and (max-width:500px){
+  .works-parent {
+  margin-right: -30em;
+}
+  .projects {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12em;
+  margin-right: -5em;
+}
+  
+}

@@ -71,10 +71,11 @@ export default function Works() {
               view the website
             </button>
             </a>
+            <button style={{ marginTop:'25em', fontSize:'14px'}}>view more works</button>
           </div>
         </div>
         
-        <button style={{marginLeft:'450px', marginTop:'1190px', fontSize:'14px'}}>view more works</button>
+        
         
       </div>
       

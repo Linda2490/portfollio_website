@@ -63,3 +63,15 @@
 .description {
   font-size: 12px;
 }
+@media screen and (max-width: 500px){
+  .Sc-parent {
+  margin-right: 0;
+}
+ .Sc-details {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10em;
+  margin-left: -15em;
+} 
+  
+}

@@ -171,3 +171,24 @@ padding: .8em 2.1em;
 	margin: 3rem 0;
 
 } */ 
+@media screen and  (max-width: 500px) {
+  .Home-details {
+    margin-bottom: -70em;
+    margin-right: -28em;
+    margin-left: 9em;
+  }
+
+.profile-picture {
+ 
+  
+  height: 700px;
+  width: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: -13em;
+  
+};
+    
+  
+}
+ 

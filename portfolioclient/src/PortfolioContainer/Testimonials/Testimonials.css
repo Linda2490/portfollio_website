@@ -117,3 +117,11 @@
     transform: translateX(0);
   }
 }
+@media screen and (max-width:500px) {
+  .testimonials-container {
+    margin-top: 400px;
+  }
+  .testimonials-parent {
+  margin-right: 0px;
+}
+}
