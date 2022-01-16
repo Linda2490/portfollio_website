@@ -59,6 +59,7 @@
   font-size: 20px;
   margin-right: 200px;
   margin-bottom: 1px;
+  
 }
 .underline {
   border-bottom: 2px solid #1ef2f1;
@@ -112,13 +113,40 @@
 }
 @media screen and (max-width:500px){
   .works-parent {
-  margin-right: -30em;
+  margin-right: 0em;
 }
   .projects {
   display: flex;
   flex-direction: column;
-  margin-top: 12em;
-  margin-right: -5em;
+  margin-top: 8em;
+  
+}
+  .first-pic {
+  
+  height: 14.75em;
+  width: 22.25em;
+  
+  margin-left: 4.5em;
+  position: relative;
+}
+  .second-pic {
+  
+  height: 14.75em;
+  width: 22.25em;
+  
+  margin-left: 4.5em;
+  position: relative;
+}
+  .third-pic {
+  
+  height: 14.75em;
+  width: 22.25em;
+  
+  margin-left: 4.5em;
+  position: relative;
 }
   
+ .more-works-btn{
+   margin-left: 10em;
+ }
 }

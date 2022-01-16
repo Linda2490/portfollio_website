@@ -136,7 +136,31 @@ h4 {
 }
 @media screen and (max-width:500px){
   .contact-parent {
-    margin-right: 100px;
+    margin-right: 2em;
     
 }
+  .contact-highlight{
+    margin-left:3em;
+    
+}
+  .contact-details {
+   display: inline-block;
+   margin-right: 10em;
+}
+  .tel {
+     display: none
+}
+  .position {
+    display: none;
+  }
+  .email {
+    display: none;
+  }
+  .gmaill {
+    margin-right: 12em;
+  }
+  .highlights {
+    display: inline-block;
+    
+  }
 }

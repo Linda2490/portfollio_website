@@ -8,3 +8,9 @@
   color: #1ef2f1;
   margin-right: 90px;
 }
+
+@media screen and (max-width:500px) {
+  .footer {
+    margin-right: 1em;
+  }
+}

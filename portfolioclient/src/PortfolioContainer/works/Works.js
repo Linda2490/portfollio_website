@@ -71,7 +71,7 @@ export default function Works() {
               view the website
             </button>
             </a>
-            <button style={{ marginTop:'25em', fontSize:'14px'}}>view more works</button>
+            <button className='more-works-btn' style={{ marginTop:'25em', fontSize:'14px'}}>view more works</button>
           </div>
         </div>
         

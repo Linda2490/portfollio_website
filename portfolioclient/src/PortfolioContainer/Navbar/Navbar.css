@@ -55,19 +55,20 @@ a {
     display: flex;
     flex-direction: column;
     height: auto;
-    margin-top: 600px ;
-    background-color: rgba(2, 2, 2, 0.527);
     
+    margin-top: 25em ;
+    background-color: rgba(2, 2, 2, 0.527);
+    right:0;
     z-index: 1;
   }
   .items {
     width: 100%;
-    margin-right: 200px;
+    margin-right: 2rem;
     text-align: center;
-    margin-top: 40px;
-    font-size: 40px;
-    border-bottom: 2px solid #375a5a;
-    
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    border-bottom: .1em solid #375a5a;
+     
   }
   .items:hover {
     background-color:#375a5a ;

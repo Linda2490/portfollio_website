@@ -1,6 +1,6 @@
 .Home-container {
   display: flex;
-
+  
   justify-content: center;
   justify-items: center;
   margin-top: 70px;
@@ -173,19 +173,19 @@ padding: .8em 2.1em;
 } */ 
 @media screen and  (max-width: 500px) {
   .Home-details {
-    margin-bottom: -70em;
-    margin-right: -28em;
-    margin-left: 9em;
+    margin-bottom: -40em;
+    margin-right: -16em;
+    margin-left: -1em;
   }
 
 .profile-picture {
  
   
-  height: 700px;
-  width: 700px;
+  height: 20em;
+  width: 20em;
   background-repeat: no-repeat;
   background-position: center;
-  margin-left: -13em;
+  margin-left: -11.8em;
   
 };
     
