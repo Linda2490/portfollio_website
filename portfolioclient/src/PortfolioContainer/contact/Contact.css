@@ -157,10 +157,13 @@ h4 {
     display: none;
   }
   .gmaill {
-    margin-right: 12em;
+    display: none;
   }
   .highlights {
     display: inline-block;
     
+  }
+  .social-icons {
+    display: none;
   }
 }

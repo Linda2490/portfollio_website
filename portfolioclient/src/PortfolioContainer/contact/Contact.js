@@ -29,8 +29,8 @@ export default function Contact() {
           <span>Do you have any</span>
           <span>project in your mind</span>
         </div>
-        <a className='gmaill' href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=mahdi.kaaniche1998@gmail.com">
-          <button  style={{ marginLeft: '350px', marginTop: '120px' }}>
+        <a  href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=mahdi.kaaniche1998@gmail.com">
+          <button  style={{ marginLeft: '350px', marginTop: '120px' }} className='gmaill'>
             Contact me
           </button>
         </a>
