@@ -104,7 +104,7 @@
 .slidess {
   display: flex;
   width : calc(700px * 3);
-  animation: slidde 10s infinite;
+  animation: slidde 17s infinite;
 }
 @keyframes slidde {
   0% {

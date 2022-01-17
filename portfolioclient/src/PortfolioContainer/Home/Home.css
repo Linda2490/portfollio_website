@@ -1,6 +1,6 @@
 .Home-container {
   display: flex;
-  
+  box-sizing: border-box;
   justify-content: center;
   justify-items: center;
   margin-top: 70px;
