@@ -116,7 +116,7 @@
 }
 @media screen and (max-width:500px){
   .works-parent {
-  margin-right: 0em;
+  margin-right: 2em;
 }
   .projects {
   display: flex;
@@ -150,11 +150,11 @@
 }
   
  .more-works-btn{
-   margin-left: 8em;
+   margin-left: 6.5em;
  }
  .works-subtitle {
   
-  margin-left: -3em;
+  margin-left: -6em;
   
 }
  .pic-details {
@@ -162,6 +162,14 @@
 }
  .second-pic-title {
   
-  margin-left: 1.2em;
+  margin-left: -1em;
+}
+ .first-pic-title {
+  
+  margin-left: -2.9em;
+}
+ .third-pic-title {
+  
+  margin-left: -2em;
 }
 }
