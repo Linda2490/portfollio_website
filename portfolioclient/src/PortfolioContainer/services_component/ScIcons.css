@@ -310,4 +310,11 @@
   
   display: none;
 }
+@keyframes slidd {
+  
+  50% {
+    transform: translateX(-200px);
+  }
+  
+}
 }

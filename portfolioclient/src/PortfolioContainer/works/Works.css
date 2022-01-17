@@ -129,7 +129,7 @@
   height: 14.75em;
   width: 22.25em;
   
-  margin-left: 4.5em;
+  margin-left: 0em;
   position: relative;
 }
   .second-pic {
@@ -137,7 +137,7 @@
   height: 14.75em;
   width: 22.25em;
   
-  margin-left: 4.5em;
+  margin-left: 0em;
   position: relative;
 }
   .third-pic {
@@ -145,11 +145,23 @@
   height: 14.75em;
   width: 22.25em;
   
-  margin-left: 4.5em;
+  margin-left: 0em;
   position: relative;
 }
   
  .more-works-btn{
-   margin-left: 10em;
+   margin-left: 8em;
  }
+ .works-subtitle {
+  
+  margin-left: -3em;
+  
+}
+ .pic-details {
+  margin-left: -6em;
+}
+ .second-pic-title {
+  
+  margin-left: 1.2em;
+}
 }

@@ -122,7 +122,23 @@
     margin-top: 400px;
   }
   .testimonials-parent {
-  margin-right: 0em;
+  margin-right: 8em;
 }
+  .testimonials-subtitle {
   
+  margin-left: -1.3em;
+  
+}
+  .sliderr {
+  display: flex;
+  overflow: hidden;
+  width:500em;
+}
+  .fa-star {
+    font-size: 10px;
+  }
+  .rating {
+    display: flex;
+    flex-direction: row;
+  }
 }

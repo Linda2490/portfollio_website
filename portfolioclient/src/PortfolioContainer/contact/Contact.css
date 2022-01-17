@@ -140,12 +140,12 @@ h4 {
     
 }
   .contact-highlight{
-    margin-left:3em;
+    margin-left:1.5em;
     
 }
   .contact-details {
    display: inline-block;
-   margin-right: 10em;
+   margin-left:1.5em;
 }
   .tel {
      display: none
@@ -157,13 +157,13 @@ h4 {
     display: none;
   }
   .gmaill {
-    display: none;
+    right:0; 
   }
   .highlights {
     display: inline-block;
     
   }
   .social-icons {
-    display: none;
+    margin-left: 40px;
   }
 }

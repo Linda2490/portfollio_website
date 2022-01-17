@@ -177,17 +177,32 @@ padding: .8em 2.1em;
     margin-right: -16em;
     margin-left: -1em;
   }
-
+ .secondary-text h5 {
+  
+  margin-left: 2em;
+ 
+}
+ .primary-text h1 {
+  font-size: 50px;
+  font-weight: 900;
+  
+}
 .profile-picture {
  
   
-  height: 20em;
-  width: 20em;
+  height: 17em;
+  width: 17em;
   background-repeat: no-repeat;
   background-position: center;
-  margin-left: -11.8em;
+  margin-left: 0;
   
 };
+
+
+
+
+
+
     
   
 }

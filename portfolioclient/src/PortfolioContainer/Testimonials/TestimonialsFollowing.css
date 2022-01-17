@@ -60,3 +60,24 @@
     transform: translateX(0);
   }
 }
+@media screen and (max-width:500px) {
+ 
+.sliddde {
+  display: flex;
+  width:calc(10px * 1);
+  animation: sliddee 10s infinite;
+}
+@keyframes sliddee {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-750px);
+  }
+  
+  100% {
+    transform: translateX(0);
+  }
+}
+
+}
