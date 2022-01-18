@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box;
+  overflow: hidden;
+  
+}
+
+
+
 body {
   display: flex;
   flex-wrap: wrap;
@@ -15,14 +23,13 @@ body {
   
 }
 #root {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-  flex-wrap: wrap;
+ height:100vh;
 }
 @media screen and (max-width: 500px) {
-  body {
-    position: relative;
-  }
+ html {
+   max-width: 500px;
+  width: 100%;
+  
+}
+
 }
