@@ -50,22 +50,25 @@ a {
 @media screen and (max-width: 500px) {
   .toggle-button {
     display: flex;
+    z-index: 900;
   }
   .list {
     display: flex;
     flex-direction: column;
     height: auto;
-    
-    margin-top: 25em ;
+    padding-right: 100px;
+    margin-top: 23em ;
     background-color: rgba(2, 2, 2, 0.527);
+    
+    width: fit-content;
     right:0;
-    z-index: 1;
+    z-index: 800;
   }
   .items {
     width: 100%;
-    margin-right: 2rem;
+    margin-right: 8rem;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 3rem;
     font-size: 1.2rem;
     border-bottom: .1em solid #375a5a;
      

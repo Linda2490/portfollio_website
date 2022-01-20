@@ -72,7 +72,7 @@
   border: none;
   text-align: start;
 
-  width: 410px;
+  width: 350px;
   font-size: 12px;
   margin-left: 95px;
 }
@@ -116,7 +116,7 @@
 }
 @media screen and (max-width:500px){
   .works-parent {
-  margin-right: 2em;
+  margin-right: 5em;
 }
   .projects {
   display: flex;
@@ -154,7 +154,7 @@
  }
  .works-subtitle {
   
-  margin-left: -4em;
+  margin-left: 3em;
   
 }
  .pic-details {
@@ -172,4 +172,7 @@
   
   margin-right: -2.5em;
 }
+ .works-line {
+   display: none;
+ }
 }

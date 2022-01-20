@@ -65,17 +65,20 @@
 }
 @media screen and (max-width: 500px){
   .Sc-parent {
-  margin-right: 4em;
+  margin-right: 10em;
 }
  .Sc-details {
   display: flex;
   flex-direction: column;
   margin-top: 5em;
-  margin-left: 3em;
-} 
+  margin-left: 1em;
+}
+ .Sc-line {
+   display: none;
+ } 
   .Sc-subtitle {
   
-  margin-left: -1.5em;
+  margin-left: 6em;
   color: #1ef2f1;
 }
 }

@@ -16,7 +16,15 @@ export default function Home() {
               <div className="textt">I'm web</div>
               <ul className="option">
                 <li>
-                  {' '}
+                  
+                  <span>Developer</span>
+                </li>
+
+                <li>
+                  <span style={{ marginRight: '30px' }} className='designer'>Designer</span>
+                </li>
+                <li>
+                  
                   <span>Developer</span>
                 </li>
 

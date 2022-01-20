@@ -19,7 +19,7 @@ export default function Navbar() {
   }, [])
   return (
     <div className="navbar-container" id="navbar">
-     <img src={mw} style={{ left: ' 1em ' }} alt="logo" />
+     <img src={mw} style={{ left: ' 1em '}} alt="logo" className='img'/>
 
       <nav>
         {(showMenu || desktopScreen > 500) && (
