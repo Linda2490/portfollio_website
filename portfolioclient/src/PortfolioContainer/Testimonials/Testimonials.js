@@ -18,8 +18,8 @@ export default function Testimonials() {
         <div className="box">
           <div className="box-details">
             <div className="round-photo"></div>
-            <h6>Tech Pro</h6>
-            <h3>Showtag.tv</h3>
+            <h6 className='h6'>Tech Pro</h6>
+            <h3 className='h3'>Showtag.tv</h3>
             <h6 style={{ marginTop: '-10px' }}>
               Timely good quality Wordpress Work
             </h6>
@@ -36,8 +36,8 @@ export default function Testimonials() {
         <div className="box">
           <div className="box-details">
             <div className="round-photo"></div>
-            <h6>Tech Pro</h6>
-            <h3>Showtag.tv</h3>
+            <h6 className='h6'>Tech Pro</h6>
+            <h3 className='h3'>Showtag.tv</h3>
             <h6 style={{ marginTop: '-10px' }}>
               Timely good quality Wordpress Work
             </h6>
@@ -53,8 +53,8 @@ export default function Testimonials() {
         <div className="box">
           <div className="box-details">
             <div className="round-photo"></div>
-            <h6>Tech Pro</h6>
-            <h3>Showtag.tv</h3>
+            <h6 className='h6'>Tech Pro</h6>
+            <h3 className='h3'>Showtag.tv</h3>
             <h6 style={{ marginTop: '-10px' }}>
               Timely good quality Wordpress Work
             </h6>
@@ -70,8 +70,8 @@ export default function Testimonials() {
         <div className="box">
           <div className="box-details">
             <div className="round-photo"></div>
-            <h6>Tech Pro</h6>
-            <h3>Showtag.tv</h3>
+            <h6 className='h6'>Tech Pro</h6>
+            <h3 className='h3'>Showtag.tv</h3>
             <h6 style={{ marginTop: '-10px' }}>
               Timely good quality Wordpress Work
             </h6>
@@ -87,8 +87,8 @@ export default function Testimonials() {
         <div className="box">
           <div className="box-details">
             <div className="round-photo"></div>
-            <h6>Tech Pro</h6>
-            <h3>Showtag.tv</h3>
+            <h6 className='h6'>Tech Pro</h6>
+            <h3 className='h3'>Showtag.tv</h3>
             <h6 style={{ marginTop: '-10px' }}>
               Timely good quality Wordpress Work
             </h6>

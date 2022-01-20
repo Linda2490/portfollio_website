@@ -1,8 +1,8 @@
 .TestimonialsFollowing-container {
     display: flex;
     flex-direction: row;
-    justify-content:center;
-    justify-items: center;
+    justify-content:space-evenly;
+    justify-items:center;
     
     margin-top: 90px;
     
@@ -61,23 +61,57 @@
   }
 }
 @media screen and (max-width:500px) {
- 
+ .sliddd {
+  display: flex;
+  width : 600px;
+  overflow: hidden;
+}
 .sliddde {
   display: flex;
-  width:calc(10px * 1);
+  width:calc(200px * 4);
   animation: sliddee 10s infinite;
 }
-@keyframes sliddee {
+@keyframes slidddee {
   0% {
     transform: translateX(0);
   }
   50% {
-    transform: translateX(-750px);
+    transform: translateX(-80em);
   }
   
   100% {
     transform: translateX(0);
   }
 }
+.first-logo {
+    display: flex;
 
+  background-image: url("../../assets/tag-show.jpg");
+  background-size: none;
+  height: 100px;
+  width: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 50em;
+  
+  position: absolute;
+}
+.second-logo {
+ display: flex;
+
+  background-image: url("../../assets/bombshell.svg");
+  
+  height: 100px;
+  width: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 50em;
+  position: absolute;
+}
+.third-logo {
+ font-weight: 800;
+ font-size: 25px;
+ margin-left: none;
+ margin-top: 30px;
+}
 }

@@ -129,7 +129,7 @@
   height: 14.75em;
   width: 22.25em;
   
-  margin-left: 0em;
+  margin-left: -0.5em;
   position: relative;
 }
   .second-pic {
@@ -151,6 +151,7 @@
   
  .more-works-btn{
    margin-left: 6.5em;
+   width: fit-content;
  }
  .works-subtitle {
   
@@ -162,7 +163,7 @@
 }
  .second-pic-title {
   
-  margin-left: 0em;
+  margin-left: 0.5em;
 }
  .first-pic-title {
   
@@ -170,9 +171,10 @@
 }
  .third-pic-title {
   
-  margin-right: -2.5em;
+  margin-left: -0.9em;
 }
  .works-line {
    display: none;
  }
+ 
 }

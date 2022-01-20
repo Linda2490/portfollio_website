@@ -122,17 +122,17 @@
     margin-top: 400px;
   }
   .testimonials-parent {
-  margin-right: 8em;
+  margin-right: 7em;
 }
   .testimonials-subtitle {
   
-  margin-left: -1.3em;
+  margin-left: 3.3em;
   
 }
   .sliderr {
   display: flex;
   overflow: hidden;
-  width:500em;
+  width:100em;
 }
   .fa-star {
     font-size: 10px;
@@ -141,4 +141,27 @@
     display: flex;
     flex-direction: row;
   }
+  .testimonials-line {
+    display: none;
+  }
+  .h6 {
+    margin-left: 15em;
+  }
+  .h3 {
+     margin-left: 5em;
+  }
+  
+
+
+@keyframes slidde {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-80em);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
 }
