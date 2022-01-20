@@ -17,10 +17,9 @@
 }
 .Home-details-role {
   display: flex;
-   font-size: 60px;
+  font-size: 60px;
   font-weight: 900;
   margin-right: 100px;
-  
 }
 
 .profile-picture {
@@ -35,14 +34,13 @@
   margin-left: 230px;
   position: relative;
 }
-.textt{
+.textt {
   margin-left: -40px;
   margin-bottom: -45px;
 }
 .primary-text h1 {
   font-size: 50px;
   font-weight: 900;
-  
 }
 .secondary-text h5 {
   color: #1ef2f1;
@@ -60,62 +58,57 @@ button {
   position: absolute;
 
   font-size: 1em;
-   border:#1ef2f1;
+  border: #1ef2f1;
   font-weight: 800;
 
   letter-spacing: 0;
   border-radius: 45px;
   cursor: pointer;
   padding: 0.8em 2.1em;
+
   /* transition: transform 450ms; */
 }
 /* button:hover {
   transform: scale(1.08);
 } */
 
-
 .Home-details-role .option {
   margin-left: -10px;
   height: 90px;
-  
-  
-   line-height: 90px;
+
+  line-height: 90px;
   position: relative;
   overflow: hidden;
 }
 .option li {
   list-style: none;
   position: relative;
-  
-  top:0;
+
+  top: 0;
   animation: slide 12s steps(4) infinite;
 }
-@keyframes slide 
-{
+@keyframes slide {
   100% {
     top: -360px;
   }
-  
 }
 
 .option li span:after {
-   content:'';
-   position: absolute;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   background: black;
-   border-left: 2px solid #1ef2f1;
-   animation : typing 3s steps(10) infinite;
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  border-left: 2px solid #1ef2f1;
+  animation: typing 3s steps(10) infinite;
 }
-@keyframes typing 
-{
-  40%, 60% 
-  {
+@keyframes typing {
+  40%,
+  60% {
     left: calc(100% + 30px);
   }
-  100%
-  {
+  100% {
     left: 0;
   }
 }
@@ -155,10 +148,6 @@ height: auto;
 padding: .8em 2.1em;
 } */
 
-
-
-
-
 /* .btn-m:hover {
 
 	cursor: pointer;
@@ -170,40 +159,40 @@ padding: .8em 2.1em;
 
 	margin: 3rem 0;
 
-} */ 
-@media screen and  (max-width: 500px) {
+} */
+@media screen and (max-width: 500px) {
   .Home-details {
     margin-bottom: -40em;
     margin-right: -16em;
     margin-left: -2em;
   }
- .secondary-text h5 {
-  
-  margin-left: 2em;
- 
-}
- .primary-text h1 {
-  font-size: 50px;
-  font-weight: 900;
-  
-}
-.profile-picture {
- 
-  
-  height: 17em;
-  width: 17em;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-left: -3rem;
-  
-};
-
-
-
-
-
-
+  .Home-details-role {
+    display: inline-block;
+  }
+  .textt {
+    margin-left: 0.5em;
+  }
+  .designer{}
+  .secondary-text h5 {
+    margin-left: 2em;
+  }
+  .primary-text h1 {
+    font-size: 50px;
+    font-weight: 900;
+  }
+  .profile-picture {
+    height: 17em;
+    width: 17em;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: -3rem;
+  }
+  .Home-details {
+    display: inline-block;
+  }
+  button {
     
-  
+    width: 50%;
+    right: 6.5em;
+  }
 }
- 
