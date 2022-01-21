@@ -12,7 +12,7 @@ export default function Testimonials() {
       </div>
 
       <div className="testimonials-box">
-        <i class="fas fa-chevron-left"></i>
+        <i className="fas fa-chevron-left"></i>
         <div className="sliderr">
           <div className="slidess">
             <div className="box">
@@ -103,7 +103,7 @@ export default function Testimonials() {
             </div>
           </div>
         </div>
-        <i class="fas fa-chevron-right"></i>
+        <i className="fas fa-chevron-right"></i>
       </div>
     </div>
   )

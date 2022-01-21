@@ -3,7 +3,7 @@ import './TestimonialsFollowing.css'
 export default function TestimonialsFollowing() {
   return (
     <div className="TestimonialsFollowing-container">
-    <i class="fas fa-chevron-left" style={{marginTop:'50px', marginRight:'50px'}}></i>
+    <i className="fas fa-chevron-left" style={{marginTop:'50px', marginRight:'50px'}}></i>
       <div className='sliddd'>
       <div className='sliddde'>
       <div className="first-logo" ></div>
@@ -16,7 +16,7 @@ export default function TestimonialsFollowing() {
       <div className="first-logo" ></div>
       </div>
       </div>
-    <i class="fas fa-chevron-right" style={{marginTop:'50px', marginLeft:'80px'}}></i>
+    <i className="fas fa-chevron-right" style={{marginTop:'50px', marginLeft:'-10em'}}></i>
     </div>
   )
 }

@@ -1,14 +1,14 @@
 .TestimonialsFollowing-container {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-evenly;
-    justify-items:center;
-    
-    margin-top: 90px;
-    
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  justify-items: center;
+
+  margin-top: 90px;
 }
+
 .first-logo {
-    display: flex;
+  display: flex;
 
   background-image: url("../../assets/tag-show.jpg");
   background-size: cover;
@@ -17,14 +17,14 @@
   background-repeat: no-repeat;
   background-position: center;
   margin-left: 80px;
-  
+
   position: relative;
 }
 .second-logo {
- display: flex;
+  display: flex;
 
   background-image: url("../../assets/bombshell.svg");
-  
+
   height: 100px;
   width: 150px;
   background-repeat: no-repeat;
@@ -33,19 +33,22 @@
   position: relative;
 }
 .third-logo {
- font-weight: 800;
- font-size: 25px;
- margin-left: 100px;
- margin-top: 30px;
+  font-weight: 800;
+  font-size: 25px;
+  margin-left: 100px;
+  margin-top: 30px;
 }
 .sliddd {
   display: flex;
-  width : 830px;
+
+  width: 830px;
   overflow: hidden;
+  margin-left: -5em;
+  margin-right: 4em;
 }
 .sliddde {
   display: flex;
-  width:calc(700px * 4);
+  width: calc(700px * 4);
   animation: sliddee 10s infinite;
 }
 @keyframes sliddee {
@@ -55,64 +58,64 @@
   50% {
     transform: translateX(-800px);
   }
-  
+
   100% {
     transform: translateX(0);
   }
 }
-@media screen and (max-width:500px) {
- .sliddd {
-  display: flex;
-  width : 600px;
-  overflow: hidden;
-}
-.sliddde {
-  display: flex;
-  width:calc(200px * 4);
-  animation: sliddee 10s infinite;
-}
-@keyframes slidddee {
-  0% {
-    transform: translateX(0);
+@media screen and (max-width: 500px) {
+  .sliddd {
+    display: flex;
+    width: 100em;
+    overflow: hidden;
   }
-  50% {
-    transform: translateX(-80em);
+  .sliddde {
+    display: flex;
+    width: calc(200px * 4);
+    animation: sliddee 10s infinite;
   }
-  
-  100% {
-    transform: translateX(0);
+  @keyframes slidddee {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-80em);
+    }
+
+    100% {
+      transform: translateX(0);
+    }
   }
-}
-.first-logo {
+  .first-logo {
     display: flex;
 
-  background-image: url("../../assets/tag-show.jpg");
-  background-size: none;
-  height: 100px;
-  width: 100px;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-left: 50em;
-  
-  position: fixed;
-}
-.second-logo {
- display: flex;
+    background-image: url("../../assets/tag-show.jpg");
+    background-size: none;
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 50em;
 
-  background-image: url("../../assets/bombshell.svg");
-  
-  height: 100px;
-  width: 150px;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-right: 50em;
-  position: fixed;
-}
-.third-logo {
- font-weight: 800;
- font-size: 25px;
- margin-left: none;
- margin-top: 30px;
- margin-left: 20em;
-}
+    position: fixed;
+  }
+  .second-logo {
+    display: flex;
+
+    background-image: url("../../assets/bombshell.svg");
+
+    height: 100px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 50em;
+    position: fixed;
+  }
+  .third-logo {
+    font-weight: 800;
+    font-size: 25px;
+    margin-left: none;
+    margin-top: 30px;
+    margin-left: 15em;
+  }
 }
