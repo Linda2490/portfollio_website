@@ -94,7 +94,7 @@
   background-position: center;
   margin-left: 50em;
   
-  position: absolute;
+  position: fixed;
 }
 .second-logo {
  display: flex;
@@ -106,12 +106,13 @@
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 50em;
-  position: absolute;
+  position: fixed;
 }
 .third-logo {
  font-weight: 800;
  font-size: 25px;
  margin-left: none;
  margin-top: 30px;
+ margin-left: 20em;
 }
 }

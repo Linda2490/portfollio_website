@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './Navbar.css'
-var mw = require('../../assets/Asset 1.png')
+// var mw = require('../../assets/Asset 1.png')
 
 export default function Navbar() {
   const [showMenu, setShowMenu] = useState(false)
@@ -19,7 +19,7 @@ export default function Navbar() {
   }, [])
   return (
     <div className="navbar-container" id="navbar">
-     <img src={mw} style={{ left: ' 1em '}} alt="logo" className='img'/>
+     {/* <img src={mw} style={{ left: ' 1em '}} alt="logo" className='img'/> */}
 
       <nav>
         {(showMenu || desktopScreen > 500) && (

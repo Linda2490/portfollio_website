@@ -5,3 +5,7 @@
   box-sizing: border-box;
   width: 100%;
 }
+.oneline {
+  display: flex;
+  flex: row;
+}
